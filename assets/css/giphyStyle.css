@@ -1,0 +1,61 @@
+body
+{
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+
+input
+{
+  margin: 10px;
+}
+
+ button
+ {
+ 	margin: 30px;
+ }
+
+ .search-bar
+ {
+ 	margin-top: 30px;
+ }
+
+ img
+ {
+  	margin:30px; 
+ }
+
+ img:hover
+ {
+/*   	border:4px solid #5cf442;  */
+ }
+
+ /* Transition to a bigger shadow on hover */
+img:hover 
+{
+  box-shadow: 0 30px 30px grey;
+}
+
+/* The fast way */
+img 
+{
+  box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
+
+/* Pre-render the bigger shadow, but hide it */
+img::after 
+{
+  box-shadow: 0 30px 30px grey;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Transition to showing the bigger shadow on hover */
+img:hover::after 
+{
+  opacity: 1;
+}
+
+.col-md-3
+{
+	border:1px solid black;
+}

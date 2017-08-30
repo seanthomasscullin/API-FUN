@@ -1,0 +1,25 @@
+body
+{
+  margin-top: 100px;
+}
+
+button
+{
+  height:50%;
+}
+
+.row
+{
+  margin:50px;
+}
+
+a:hover
+{
+  text-decoration: none;
+}
+
+.btn
+{
+	white-space:normal;
+    word-wrap: break-word;
+}

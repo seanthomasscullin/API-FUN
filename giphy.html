@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<title>GIPHY Search</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<h3>Search History</h3>
+			<div class="col-md-12 search-buttons">
+			</div>
+		</div>
+
+		<div class="row search-bar">
+			<div class="col-md-12 text-center">
+				<label>Search for a GIF!</label><span><input type="text" name="search" placeholder="Search for a GIF!" id="search"></span><br>
+				<label># of results you want</label><span><input type="text" name="search" placeholder="# of results you want" value="20" id="result-number"></span>
+				<br>
+				<button type="button" class="btn btn-primary btn-lg" id="search-button">Search</button>
+				<button type="button" class="btn btn-primary btn-lg" id="trending-button">What's Trending?</button>
+			</div>
+		</div>
+
+		<div class="row search-results-row">
+			<div class="col-md-12 text-center search-results">
+			</div>
+		</div>
+
+
+
+
+	</div>
+	
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/giphyScript.js"></script>
+	<link href="assets/css/giphyStyle.css" rel="stylesheet" />
+
+</body>
+</html>
